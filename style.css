@@ -137,7 +137,8 @@ header {
 
 h1 {
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 400;
+  font-family: Bungee Spice, sans-serif;
   color: #f9faf8;
 }
 
@@ -160,6 +161,8 @@ li a {
 img {
   width: 50%;
   height: auto;
+  border-radius: 9px;
+  box-shadow: 0 8px 10px -6px rgba(225, 225, 225, 0.8);
 }
 
 .nav-container {
@@ -196,11 +199,21 @@ img {
 }
 
 .box {
-  height: 150px;
-  width: 150px;
-  border: 2px solid #3882f6;
-  border-radius: 9px;
+  height: 180px;
+  width: 180px;
+  /* overflow: hidden; */
+  /* border: 2px solid #3882f6;
+  border-radius: 9px; */
   margin-bottom: 12px;
+}
+
+.box img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  border: 3px solid #1f2937;
+  border-radius: 9px;
+  box-shadow: 0 8px 10px -2px rgba(0, 0, 225, 0.8);
 }
 
 .information-paragraph {
