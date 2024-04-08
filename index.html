@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -11,59 +15,102 @@
     <header>
       <nav>
         <div class="nav-container">
-          <h2>Header Logo</h2>
-          <ul>
+          <h1>Header Logo</h1>
+          <ul class="nav-links">
             <li><a href="#">header link one</a></li>
             <li><a href="#">header link two</a></li>
             <li><a href="#">header link three</a></li>
           </ul>
         </div>
       </nav>
+      <!-- main section -->
+      <section class="top-container">
+        <div class="heading-container">
+          <h2>
+            This website is <br />
+            awesome
+          </h2>
+          <p>
+            This website has some subtext that goes here under <br />
+            the main title. It's a smaller font and color is lower <br />
+            contrast
+          </p>
+          <button id="top-btn">Sign up</button>
+        </div>
+        <img
+          src="/images//header-pic.jpg"
+          alt="Image by Vilius Kukanauskas from Pixabay"
+          style="max-width: 500px"
+        />
+      </section>
     </header>
-    <!-- main section -->
-    <section class="top-container">
-      <div class="heading">
-        <h1>This website is awesome</h1>
-        <p>
-          This website has some subtext that goes here under the main title.
-          It's a smaller font and color is lower contrast
-        </p>
-        <button>Sign up</button>
-      </div>
-      <div class="image-container">
-        <img src="#" alt="this is a placeholder for an image" />
-      </div>
-    </section>
+
     <!-- middle section -->
-    <h3>Some Random Information</h3>
-    <section class="middle-container">
-      <div class="mini-container"></div>
-      <p>This is some subtext under an illustration or image</p>
-      <div class="mini-container"></div>
-      <p>This is some subtext under an illustration or image</p>
-      <div class="mini-container"></div>
-      <p>This is some subtext under an illustration or image</p>
-      <div class="mini-container"></div>
-      <p>This is some subtext under an illustration or image</p>
+    <center class="information-header">
+      <h3>Some Random Information.</h3>
+    </center>
+    <section class="information-container">
+      <!-- nested div items -->
+      <div>
+        <div class="box"></div>
+        <p class="information-paragraph">
+          This is some subtext <br />
+          under an illustration <br />
+          or image
+        </p>
+      </div>
+      <div>
+        <div class="box"></div>
+        <p class="information-paragraph">
+          This is some subtext <br />
+          under an illustration <br />
+          or image
+        </p>
+      </div>
+      <div>
+        <div class="box"></div>
+        <p class="information-paragraph">
+          This is some subtext <br />
+          under an illustration <br />
+          or image
+        </p>
+      </div>
+      <div>
+        <div class="box"></div>
+        <p class="information-paragraph">
+          This is some subtext <br />
+          under an illustration <br />
+          or image
+        </p>
+      </div>
     </section>
     <!-- sub-middle section -->
     <section class="quote-container">
       <blockquote>
         <p>
-          This is an inspiring quote, or a testimonial from a customer. Maybe
-          it's just filling up space, or maybe people will actually read it. Who
-          knows? All I know is that it looks nice
+          This is an inspiring quote, or a testimonial fro <br />
+          a customer. Maybe it's just filling up space, or maybe <br />
+          people will actually read it. Who knows? All I know <br />
+          is that it looks nice
         </p>
-        <footer>- Thor, God of Thunder</footer>
+        <footer><p class="quote-footer">- Thor, God of Thunder</p></footer>
       </blockquote>
     </section>
-    <!-- footer section -->
-    <footer class="bottom-container">
-      <div class="text-container">
-        <h5>Call to action! It's time</h5>
-        <p>Sign up for out product by clicking that button right over there!</p>
-        <button>Sign up</button>
+    <!-- sub -last section -->
+    <section class="bottom-container">
+      <div class="action-container">
+        <div>
+          <h5>Call to action! It's time</h5>
+          <p>
+            Sign up for out product by clicking that button right over there!
+          </p>
+        </div>
+        <button class="bottom-btn">Sign up</button>
       </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer-container">
+      <center><p>Copyright &copy; The Odin Project 2021</p></center>
     </footer>
   </body>
 </html>
